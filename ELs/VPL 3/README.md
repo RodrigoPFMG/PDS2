@@ -77,24 +77,24 @@ The program reads commands from standard input and executes the operations:
 ---
 
 ## 📖 Example Execution
-C 123 Luiz
-conta criada
-C 123 Maria
-ERRO: conta repetida
-C 999 Maria
-conta criada
-D 123 1000
-deposito efetuado
-S 555 500
-ERRO: conta inexistente
-S 123 200
-saque efetuado
-P 123 999 300
-pix efetuado
-I
-123 Luiz 500.00
-999 Maria 300.00
-T
+C 123 Luiz  
+conta criada  
+C 123 Maria  
+ERRO: conta repetida  
+C 999 Maria  
+conta criada  
+D 123 1000  
+deposito efetuado  
+S 555 500  
+ERRO: conta inexistente  
+S 123 200  
+saque efetuado  
+P 123 999 300  
+pix efetuado  
+I  
+123 Luiz 500.00  
+999 Maria 300.00  
+T  
 
 ---
 
