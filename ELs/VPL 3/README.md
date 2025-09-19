@@ -14,7 +14,7 @@ The implementation is divided into two main ADTs and a main program (`main.cpp`)
 
 ---
 
-## 🎯 Practiced Concepts
+## 🎯  Topics Practiced
 - Creating and using **ADTs in C++**  
 - **Encapsulation** and attribute access only through methods  
 - Manipulation of **pointers** and **static arrays**  
