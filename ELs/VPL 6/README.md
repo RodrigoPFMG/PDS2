@@ -40,8 +40,6 @@ que 1
 teste 2  
 um 1  
 
-- Additional example files may include: `teste.txt`, `quadrilha.txt`, `blackbird.txt`.  
-
 ---
 
 ✅ **Goal:** By the end of this exercise, you should be able to **count word occurrences** and **use STL containers effectively** for string and text processing in C++.  
