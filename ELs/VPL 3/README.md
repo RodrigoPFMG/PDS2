@@ -23,7 +23,7 @@ The implementation is divided into two main ADTs and a main program (`main.cpp`)
 
 ---
 
-## 🏗️ System Structure
+## 📝 Instructions
 
 ### ADT **BankAccount**
 Represents an account with attributes:  
