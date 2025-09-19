@@ -13,7 +13,7 @@ This course builds upon the foundations of **Programming and Systems Development
 
 ## 📂 Repository structure
 The codes are organized into:
-- **Practical assignments (TPs)**  
+- **Practical assignment (TP)**  
 - **Exercise lists(ELs)**  
   
 
