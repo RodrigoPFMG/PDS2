@@ -1,34 +1,41 @@
-# Practical Assignment - Wordle Game (C++)
+# Exercise List - Wordle (Strings and Streams)
 
 📌 **Description**  
-This project implements a simplified version of the popular game **Wordle**, using **Strings** and **Streams** in C++.  
-The objective is to guess a secret five-letter word within **five attempts**.  
+This exercise aims to practice the use of **Strings** and **Streams** in C++.  
+The task consists of implementing a simplified version of the game **Wordle**, where the player has up to **5 attempts** to guess a 5-letter word.  
 
-🎮 **Game Rules**  
-- If a letter is correct **and** in the right position → print the uppercase letter.  
-- If a letter is correct but in the **wrong position** → print the lowercase letter.  
-- If a letter is not present in the word → print `*`.  
-- At the end of each attempt, also print all incorrect letters (from all attempts) in parentheses, without repetition.  
-- The game ends when:  
-  - The player guesses the word → print **"GANHOU!"**.  
-  - The player runs out of 5 attempts → print **"PERDEU!"** followed by the correct word.  
+The program compares each attempt with the target word and gives feedback using the following rules:  
+- Uppercase letter → correct letter in the correct position.  
+- Lowercase letter → correct letter in the wrong position.  
+- `*` → letter not present in the target word.  
+- Letters not present must also be printed between parentheses, accumulated across all attempts (no repetitions).  
 
-📝 **Input format**  
-1. A file `palavras.txt` containing:  
-   - First line: an integer **n** → number of words (1 ≤ n).  
-   - Next **n** lines: one five-letter word per line (uppercase, no repeated letters).  
-2. From standard input:  
-   - An integer from 1 to n → index of the secret word (the "key").  
-   - Up to five five-letter guesses (uppercase, no repeated letters).  
+The game ends either when the player guesses the correct word (**"GANHOU!"**) or after 5 attempts without success (**"PERDEU!" followed by the correct word**).  
 
-🖥️ **Output format**  
-- After each guess:  
-  - The transformed word with correct/incorrect markers.  
-  - The list of invalid letters in parentheses.  
-- End of game:  
-  - **"GANHOU!"** if guessed.  
-  - **"PERDEU!" <word>** if all attempts are used without success.  
+---
 
-⚠️ **Restrictions**  
-- Must use **C++ Strings and Streams**.  
-- Functions like `char*`, `printf`, and `scanf` are not allowed.  
+## 🎯 Topics Practiced
+- Reading input from files (`palavras.txt`)  
+- Using `std::string` and its functions (especially `find`)  
+- Handling text input and output with streams  
+- String comparison and manipulation  
+- Accumulating and printing unique "incorrect letters"  
+
+---
+
+## 📝 Instructions
+- Read the dictionary of words from the file **`palavras.txt`**.  
+  - First line: integer `n`, the number of words in the file.  
+  - Next `n` lines: 5-letter words (uppercase, no repeated characters).  
+- Read an integer from standard input (1 ≤ k ≤ n), which selects the target word.  
+- Repeatedly read words of 5 letters from standard input and print the result according to the rules.  
+- After 5 attempts, if the word is not guessed, print **`PERDEU!`** followed by the correct word.  
+
+---
+
+## 📚 References
+- [C++ Reference - string::find](https://cplusplus.com/reference/string/string/find/)    
+
+---
+
+✅ **Goal:** By the end of this exercise, you should be more comfortable with **string manipulation**, **file input/output**, and **stream usage** in C++.  
